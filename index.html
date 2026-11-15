@@ -4,7 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Life of Aarya | Official</title>
+<title>Life of Aarya 👑</title>
 
 <style>
 * {
@@ -27,10 +27,10 @@ body::before {
   inset: -50%;
   z-index: -2;
   background:
-    radial-gradient(circle at 25% 30%, #252078, transparent 30%),
-    radial-gradient(circle at 75% 65%, #4b145e, transparent 30%),
-    radial-gradient(circle at 50% 90%, #102b68, transparent 35%);
-  animation: glow 12s ease-in-out infinite alternate;
+    radial-gradient(circle at 20% 30%, #272080, transparent 30%),
+    radial-gradient(circle at 80% 60%, #58146b, transparent 30%),
+    radial-gradient(circle at 50% 90%, #103b75, transparent 35%);
+  animation: glow 10s ease-in-out infinite alternate;
 }
 
 @keyframes glow {
@@ -42,20 +42,20 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 20px 8%;
+  padding: 20px 7%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: #050510cc;
   backdrop-filter: blur(15px);
   z-index: 10;
-  border-bottom: 1px solid #ffffff15;
+  border-bottom: 1px solid #ffffff20;
 }
 
 .logo {
-  font-size: 23px;
+  font-size: 24px;
   font-weight: bold;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   color: #c6a6ff;
 }
 
@@ -66,7 +66,7 @@ nav a {
   font-size: 13px;
 }
 
-nav a:hover { color: #ba91ff; }
+nav a:hover { color: #a98bff; }
 
 section {
   padding: 110px 9%;
@@ -89,7 +89,7 @@ section {
 }
 
 .hero h1 {
-  font-size: clamp(48px, 10vw, 100px);
+  font-size: clamp(45px, 10vw, 100px);
   background: linear-gradient(90deg,#fff,#a98bff,#58caff);
   background-clip: text;
   -webkit-background-clip: text;
@@ -138,9 +138,9 @@ h2 {
   margin: 30px auto;
   border-radius: 50%;
   border: 3px solid #a78bfa;
-  box-shadow: 0 0 25px #744cff, 0 0 55px #744cff66;
+  box-shadow: 0 0 30px #744cff;
   overflow: hidden;
-  animation: profileGlow 3s ease-in-out infinite alternate;
+  animation: profileGlow 3s infinite alternate;
 }
 
 .profile img {
@@ -157,12 +157,12 @@ h2 {
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(190px,1fr));
-  gap: 20px;
+  gap: 22px;
   margin-top: 40px;
 }
 
 .card {
-  padding: 30px 20px;
+  padding: 35px 20px;
   background: #ffffff0b;
   border: 1px solid #ffffff20;
   border-radius: 18px;
@@ -172,17 +172,18 @@ h2 {
 .card:hover {
   transform: translateY(-8px);
   border-color: #9b7aff;
-  box-shadow: 0 0 25px #754bff44;
+  box-shadow: 0 0 25px #754bff55;
 }
 
 .card h3 {
   color: #c6a6ff;
-  margin-bottom: 12px;
+  margin-bottom: 14px;
+  font-size: 21px;
 }
 
 .card p {
   color: #aaa;
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
 .social { margin-top: 20px; }
@@ -221,7 +222,7 @@ footer {
   <nav>
     <a href="#home">Home</a>
     <a href="#about">About</a>
-    <a href="#interests">Interests</a>
+    <a href="#interests">Hobbies</a>
     <a href="#gallery">Gallery</a>
     <a href="#social">Socials</a>
   </nav>
@@ -238,7 +239,8 @@ footer {
   <h2>ABOUT ME</h2>
 
   <div class="profile">
-    <img src="WhatsApp%20Image%202026-11-15%20at%206.21.05%20AM.jpeg" alt="Aarya">
+    <img src="WhatsApp%20Image%202026-11-15%20at%206.21.05%20AM.jpeg"
+         alt="Aarya">
   </div>
 
   <p class="description">
@@ -249,9 +251,15 @@ footer {
 </section>
 
 <section id="interests">
-  <h2>MY INTERESTS</h2>
+  <h2>MY INTERESTS & HOBBIES</h2>
 
   <div class="cards">
+
+    <div class="card">
+      <h3>🏸 Badminton</h3>
+      <p>Playing badminton and enjoying the game.</p>
+    </div>
+
     <div class="card">
       <h3>🎬 Movies</h3>
       <p>Movies, cinema and entertainment.</p>
@@ -271,6 +279,7 @@ footer {
       <h3>🎨 Creativity</h3>
       <p>Design, editing and imagination.</p>
     </div>
+
   </div>
 </section>
 
